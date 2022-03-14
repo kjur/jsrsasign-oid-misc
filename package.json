@@ -1,0 +1,41 @@
+{
+    "name": "jsrsasign-oid-misc",
+    "version": "0.9.1",
+    "description": "jsrsasign add-on for miscellaneous OID definitions",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kjur/jsrsasign-oid-misc.git"
+    },
+    "keywords": [
+        "jsrsasign",
+        "objectidentifier",
+        "oid"
+    ],
+    "author": "Kenji Urushima",
+    "homepage": "https://github.com/kjur/jsrsasign-oid-misc/",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kjur/jsrsasign-oid-misc/issues"
+    },
+    "dependencies": {
+        "jsrsasign": ">=10.5.2"
+    },
+    "devDependencies": {
+        "mocha": "*"
+    },
+    "funding": "https://github.com/kjur/jsrsasign#donations",
+    "badges": {
+        "list": [
+            "githubsponsors",
+            "crypto"
+        ],
+        "config": {
+            "githubSponsorsUsername": "kjur",
+            "cryptoURL": "https://github.com/kjur/jsrsasign#cryptocurrency"
+        }
+    }
+}
